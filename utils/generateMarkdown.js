@@ -64,9 +64,21 @@ function renderLicenseLink(license) {
   };
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// Calls renderLicenseSection to return the license section of a README based on the user's license input
+function renderLicenseSection(license) {
+  // If user input is not 'no license',
+  if (license !== 'No license') {
+    // return license section for the README
+    return `
+  ## License
+  This application is distributed under the ${license}. Please review the [${(license)}](${renderLicenseLink(license)}) for more information. 
+  `
+    // Else, if there is no license,
+  } else {
+    // return an empty string
+    return '';
+  };
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
