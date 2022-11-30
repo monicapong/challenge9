@@ -1,3 +1,5 @@
+const { share } = require("rxjs");
+
 // Calls renderLicenseBadge to return the license badge image of the user's license input
 function renderLicenseBadge(license) {
   // If user input is AGPL,
@@ -109,7 +111,7 @@ function generateMarkdown(data) {
 
   ## Usage
 
-  ${data.usage}
+  1. ${data.usage}
   ![${data.screenshotAlt}]](${data.screenshot})
 
   ## Credits
