@@ -113,7 +113,7 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ![${data.screenshotAlt}]](${data.screenshot})
+  ![${data.screenshotAlt}](${data.screenshot})
 
   ## Credits
 

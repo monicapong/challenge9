@@ -12,7 +12,6 @@
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
@@ -30,7 +29,7 @@
 
   Run `node index.js` in the terminal and answer each prompt. After all prompts have been answered, a success message appears in the console log and a README.md file is created in the assets folder.
 
-  ![Professional README Generator]](./assets/images/readmeGenerator.gif)
+  ![Professional README Generator](images/readmeGenerator.gif)
   
   ## License
   This application is distributed under the MIT License. Please review the [MIT License]((https://choosealicense.com/licenses/MIT)) for more information. 
