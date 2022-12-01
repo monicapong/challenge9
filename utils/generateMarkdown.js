@@ -38,27 +38,27 @@ function renderLicenseLink(license) {
   // If user input is AGPL,
   if (license === 'GNU Affero General Public License') {
     // return link to more information on AGPL 
-    return `(https://choosealicense.com/licenses/AGPL)`;
+    return `https://choosealicense.com/licenses/AGPL`;
     // If user input is GPL,
   } else if (license === 'GNU General Public License') {
     // return link to more information on GPL
-    return `(https://choosealicense.com/licenses/GPL)`;
+    return `https://choosealicense.com/licenses/GPL`;
     // If user input is LGPL,
   } else if (license === 'GNU Lesser General Public License') {
     // return link to more information on LGPL
-    return `(https://choosealicense.com/licenses/LGPL)`;
+    return `https://choosealicense.com/licenses/LGPL`;
     // If user input is MPL,
   } else if (license === 'Mozilla Public License') {
     // return link to more information on MPL
-    return `(https://choosealicense.com/licenses/MPL)`;
+    return `https://choosealicense.com/licenses/MPL`;
     // If user input is Apache,
   } else if (license === 'Apache License') {
     // return link to more information on apache
-    return `(https://choosealicense.com/licenses/apache)`;
+    return `https://choosealicense.com/licenses/apache`;
     // If user input is MIT,
   } else if (license === 'MIT License') {
     // return link to more information on MIT
-    return `(https://choosealicense.com/licenses/MIT)`;
+    return `https://choosealicense.com/licenses/MIT`;
   // Else, if there is no license,
   } else {
     // return an empty string
