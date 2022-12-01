@@ -32,7 +32,7 @@
   ![Professional README Generator](assets/images/readmeGenerator.gif)
   
   ## License
-  This application is distributed under the MIT License. Please review the [MIT License]((https://choosealicense.com/licenses/MIT)) for more information. 
+  This application is distributed under the MIT License. Please review the [MIT License](https://choosealicense.com/licenses/MIT) for more information. 
   
 
   ## Contributing
