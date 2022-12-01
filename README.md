@@ -39,9 +39,6 @@
 
   To contribute to this project, please fork the repository by creating a new feature branch and a new pull request. Upon review of the pull request, the feature branch will be merged. 
 
-  ## Tests
-  N/A
-
   ## Questions
 
   If there are any questions about this application, please feel free to reach out by [email](monicapong@gmail.com) or visit my [GitHub profile](http://github.com/monicapong)
