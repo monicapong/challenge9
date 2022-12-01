@@ -111,7 +111,8 @@ function generateMarkdown(data) {
 
   ## Usage
 
-  1. ${data.usage}
+  ${data.usage}
+
   ![${data.screenshotAlt}]](${data.screenshot})
 
   ## Credits
